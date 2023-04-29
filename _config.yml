@@ -24,11 +24,13 @@ description: >- # this means to ignore newlines until "baseurl:"
    You are welcome to my Tech blog site
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://Babigdk.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: @babi_abdulrazaq
+twitter_username: babi_abdulrazaq
 github_username:  Babigdk
 
 # Build settings
-theme: minima
+markdown: kramdown
+# I removed the minima theme using a regular theme
+# theme: minima
 plugins:
   - jekyll-feed
 

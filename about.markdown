@@ -4,15 +4,16 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+'An innovative Computer Scientists an IT lead with seven 7 years experience and particular expertise in the
+management of operating systems, core networking solutions and IT infrastructure project'
+Committed to leading team in the implementation of advanced systems in order to meet business objectives and
+to improve structure and efficiency. Possesses comprehensive technical capabilities with strong knowledge of
+programming software and application, Software and website development.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Skilled in service management, with
+robust troubleshooting skill, the ability to define clear tasks and a commitment to completing tasks and resolving
+technical issues inline with best practices and clients requirements.
 
 
 [jekyll-organization]: https://github.com/jekyll
