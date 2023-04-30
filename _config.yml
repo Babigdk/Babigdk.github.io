@@ -28,8 +28,15 @@ twitter_username: babi_abdulrazaq
 github_username:  Babigdk
 
 # author
-author: Babigdk
+author: Abdulrazaq Babi
+linkedin_username: abdulrazaq-babi-778960183
+facebook_username: abdulrazaq.isa.98
 
+
+#copy right
+copyright: "Babigdk"
+# logo for the Site
+title-logo: /images/title-logo.JPG
 # Build settings
 markdown: kramdown
 # I removed the minima theme using a regular theme
