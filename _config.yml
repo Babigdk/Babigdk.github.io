@@ -27,6 +27,9 @@ url: "https://Babigdk.github.io" # the base hostname & protocol for your site, e
 twitter_username: babi_abdulrazaq
 github_username:  Babigdk
 
+# author
+author: Babigdk
+
 # Build settings
 markdown: kramdown
 # I removed the minima theme using a regular theme
