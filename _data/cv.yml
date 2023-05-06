@@ -1,0 +1,96 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Abdulrazaq Isa BABI
+    - name: Date of Birth
+      value: 01st Feb 1992
+    - name: Languages
+      value: Hausa, English, Ngamo, Bole
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Bsc
+      institution: Abubakar Tafawa Balewa University, Bauchi, Nigeria
+      year: 2019
+      description:
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: National Diploma
+      institution: Federal Polytechnic, Damaturu, Nigeria
+      year: 2014
+      description:
+        - Description 1.
+        - Description 2.
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Assistant Instructor
+      institution: Professor, Iya Abubakar Community Resource Centre, Bauchi
+      year: 2017 - 2018
+      description:
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: NYSC
+      institution: Government College Nafada, Gombe
+      year: 2020 - 2021
+      description:
+        - Description 1.
+        - Description 2.
+
+    - title: Quality Assurance System Testing
+      institution: MTN Telecommunication, Nigeria.
+      year: 2022 - 2023
+
+    - title: Software Engeneering
+      institution: ALX Africa, Nairobi, Kenya
+      year: 2022 - now
+      description:
+
+    - title: Host/Tutor
+      institution: Data Science Network (DSN)
+      year: 2022 - now
+
+- title: Open Source Projects
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/Babigdk/">Babigdk</a>
+      year: 2022-now
+      description: A beautiful, simple, clean, responsive web Projects and DevOps Projects.
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2017
+      items:
+        - Badges in Programming
+    - year: 2018
+      items:
+        - Professional Certifications
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Artificial Intelligence.
+      items:
+        - Description 1.
+        - Description 2.
+    - title: Data Science.
+      items:
+        - Description 1.
+        - Description 2.
+
+- title: Other Interests
+  type: list
+  contents:
+    - <u>Hobbies:</u> cooding, Reading, Research.
