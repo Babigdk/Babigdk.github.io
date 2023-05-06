@@ -13,7 +13,7 @@ programming software and application, Software and website development.
 
 Skilled in service management, with
 robust troubleshooting skill, the ability to define clear tasks and a commitment to completing tasks and resolving
-technical issues inline with best practices and clients requirements.
+technical issues inline with best practices and clients requirements.gg
 
 
 [jekyll-organization]: https://github.com/jekyll
