@@ -6,5 +6,5 @@ layout: page
 title: "Projects"
 categories: project
 feed-type: project
-permalink: Projects\index
+permalink: Projects/index
 ---

@@ -5,6 +5,6 @@
 layout: page
 title: "Tech"
 feed-type: Tech
-permalink: blog-Tech\index
+permalink: blog-Tech/index
 categories: Tech
 ---

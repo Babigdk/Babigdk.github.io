@@ -4,8 +4,8 @@ title:  "3D Design Work Shop!"
 date:   2023-04-27 15:37:41 -0700
 categories: Tech
 feed-type: Tech
-permalink: blog-Tech\_posts\2023-04-28-3D-Work-Shop
-image: assets\images\3d-image2.jpg
+permalink: blog-Tech/_posts/2023-04-28-3D-Work-Shop
+image: assets/images/3d-image2.jpg
 ---
 
 3D design and modeling is the process of creating digital three-dimensional representations of physical objects or environments using specialized software. This technology has become increasingly popular in a wide range of industries, from architecture and product design to gaming and animation.
