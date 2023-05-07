@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "3D Design & Printing Training Workshop Abuja!"
+title:  "3D Design & Printing Training Workshop Yobe!"
 date:   2023-05-01 15:37:41 -0700
 category: jekyll update
 image: assets/images/3d-image.jpg
