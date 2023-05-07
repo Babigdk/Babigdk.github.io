@@ -32,6 +32,8 @@ author: Abdulrazaq Babi
 linkedin_username: abdulrazaq-babi-778960183
 facebook_username: abdulrazaq.isa.98
 
+# only get the firt sentence
+excerpt_separator: .
 
 #copy right
 copyright: "Babigdk"

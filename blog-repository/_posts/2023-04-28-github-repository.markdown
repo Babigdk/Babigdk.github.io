@@ -2,8 +2,10 @@
 layout: post
 title:  "Repository"
 date:   2023-04-28 15:37:41 -0700
-category: repo
-image: assets\images\3d-image1.jpg
+categories: repo
+feed-type: repo
+permalink: blog-repository\_posts\2023-04-28-github-repository
+#image: assets\images\3d-image1.jpg
 ---
 
 3D design and modeling is the process of creating digital three-dimensional representations of physical objects or environments using specialized software. This technology has become increasingly popular in a wide range of industries, from architecture and product design to gaming and animation.
