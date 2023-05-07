@@ -38,7 +38,7 @@ excerpt_separator: .
 #copy right
 copyright: "Babigdk"
 # logo for the Site
-title-logo: /images/title-logo.JPG
+title-logo: images/title-logoHH1.JPG
 # Build settings
 markdown: kramdown
 # I removed the minima theme using a regular theme

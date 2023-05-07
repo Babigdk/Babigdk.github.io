@@ -4,7 +4,7 @@
     - name: Full Name
       value: Abdulrazaq Isa BABI
     - name: Date of Birth
-      value: 01st Feb 1992
+      value: 01st Feb 1994
     - name: Languages
       value: Hausa, English, Ngamo, Bole
 
@@ -12,45 +12,44 @@
   type: time_table
   contents:
     - title: Bsc
-      institution: Abubakar Tafawa Balewa University, Bauchi, Nigeria
+      institution: Abubakar Tafawa Balewa University
       year: 2019
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+        - Bauchi, Nigeria
+        - B.Tech Computer Science, 2015 - 2019
     - title: National Diploma
-      institution: Federal Polytechnic, Damaturu, Nigeria
+      institution: Federal Polytechnic
       year: 2014
       description:
-        - Description 1.
-        - Description 2.
-
+        - Damaturu, Nigeria
+        - Diploma in Computer Science, 2012 - 2014
 - title: Experience
   type: time_table
   contents:
     - title: Assistant Instructor
       institution: Professor, Iya Abubakar Community Resource Centre, Bauchi
-      year: 2017 - 2018
+      year: 2018
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Course instruction (lectures and labs) for Programming Languages in Visual BASIC, Web Development
+        - Modified existing Software to correct errors, adapt to new hardware and improve performance and functionalities.
+        - title: wrote and implement scriptss to enhance user experience (UX) and intergrated scripts with CMS.
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
+            - provided full-time instuction of beginner and intermediate HTML, CSS, JavaScript, Bootstrap, C++, JAVA programming.
+            - provided instuctions to follow in system development life cyle phase (SDLC), systems analysis and design.
+            - designed and implementation of DataBase Management System with SQL, Mongo DB, Oracles.
     - title: NYSC
       institution: Government College Nafada, Gombe
-      year: 2020 - 2021
+      year: 2020
       description:
-        - Description 1.
-        - Description 2.
+        - Teaching Computer studies topics such as binary operations, CorelDraw, MS office.
+        - Motivate the students in the field of IT and other related computing courses
 
     - title: Quality Assurance System Testing
       institution: MTN Telecommunication, Nigeria.
-      year: 2022 - 2023
+      year: 2023
+      description:
+        - Conduction of manual and automatic testing to a newly or existing MTN Android App
+        - Bugs detection and provision of necessary precaution to be taken to improve security capabilities.
 
     - title: Software Engeneering
       institution: ALX Africa, Nairobi, Kenya
@@ -64,7 +63,7 @@
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/Babigdk/">Babigdk</a>
+    - title: Visit the link to my open source projects <a href="https://github.com/Babigdk/">here</a>
       year: 2022-now
       description: A beautiful, simple, clean, responsive web Projects and DevOps Projects.
 
@@ -83,12 +82,13 @@
   contents:
     - title: Artificial Intelligence.
       items:
-        - Description 1.
-        - Description 2.
+        - Transforming data science prototypes and applying appropriate ML algorithms and tool.
+        - Ensuring that algorithms generate accurate user recommendations.
+
     - title: Data Science.
       items:
-        - Description 1.
-        - Description 2.
+        - requirements gathering in the field of Math, Physics, psycology, neurology, philosophy, science and other natural languages to extract meaningful insights for business.
+        - adapt and making use of that requirements in straightening and ease business need.
 
 - title: Other Interests
   type: list
