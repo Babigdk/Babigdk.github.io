@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+<!-- ![prof_pic](prof_pic.jpg) -->
+
 
 'An innovative Computer Scientists an IT lead with seven 7 years experience and particular expertise in the
 management of operating systems, core networking solutions and IT infrastructure project'

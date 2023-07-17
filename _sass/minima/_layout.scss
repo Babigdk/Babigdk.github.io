@@ -264,3 +264,14 @@
   object-fit: cover;
   float: left;
 }
+
+.circle-image {
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      overflow: hidden;
+    }
+    .circle-image img {
+      width: 100%;
+      height: auto;
+    }
