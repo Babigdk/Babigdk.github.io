@@ -266,15 +266,9 @@
 }
 
 // stylling about image
-.profile-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-
-}
 .profile-image {
-  width: 50%; /* Adjust as needed */
-  height: 50%; /* Adjust as needed */
+  max-width: inherit;
   border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  vertical-align: middle;
 }
