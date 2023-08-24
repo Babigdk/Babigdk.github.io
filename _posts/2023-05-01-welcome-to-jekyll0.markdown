@@ -1,31 +1,39 @@
 ---
 layout: post
-title:  "3D Design & Printing Training Workshop Yobe!"
-date:   2023-05-01 15:37:41 -0700
+title: Google African Developer Scholarship Program - ATBU Bauchi 2018
+date:   2018-05-01 15:37:41 -0700
 category: jekyll update
 image: assets/images/3d-image.jpg
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+# Google African Developer Scholarship Program at ATBU Bauchi, 2018
 
-Jekyll requires blog post files to be named according to the following format:
+In 2018, I had the privilege of participating in the Google African Developer Scholarship program organized by Google at Abubakar Tafawa Balewa University in Bauchi. This program provided a remarkable opportunity for participants to dive into technical learning and understand the significance of establishing a strong online presence.
 
-`YEAR-MONTH-DAY-title.MARKUP`
+## Program Highlights
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+### The Importance of Being Online
 
-Jekyll also offers powerful support for code snippets:
+During the program, a crucial lesson we learned was the value of maintaining an impactful online presence. We delved into topics such as personal branding, crafting online portfolios, and leveraging social media for networking and visibility.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+### Technical Learning
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+The program covered a diverse range of technical subjects:
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+- **Android Development:** We delved into the world of Android app development, exploring UI/UX design, coding practices, and the process of deploying apps.
+  
+- **Web Development:** Web technologies including HTML, CSS, and JavaScript were at the forefront, enabling us to build interactive and visually appealing websites.
+
+## Collaborative Learning Environment
+
+A standout feature of the program was the collaborative atmosphere it fostered. We engaged in hands-on projects, coding challenges, and embraced peer-to-peer learning, allowing us to grow collectively as developers.
+
+## Mentorship and Industry Insights
+
+The guidance provided by experienced mentors and industry professionals was invaluable. Interacting with these experts gave us unique insights into real-world scenarios, helping us bridge the gap between theory and practice.
+
+## Conclusion
+
+The Google African Developer Scholarship program at Abubakar Tafawa Balewa University, Bauchi, in 2018, was an exceptional journey that left an indelible mark on all participants. Equipped with new technical skills and a profound understanding of the importance of a strong online presence, we are better prepared to contribute to the tech world.
+
+For more details about the Google African Developer Scholarship program, visit the [official Google Africa Developers website](https://developers.google.com/africa/).

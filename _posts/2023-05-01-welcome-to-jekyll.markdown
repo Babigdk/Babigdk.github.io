@@ -1,31 +1,50 @@
 ---
-layout: post
-title:  "3D Design & Printing Training Workshop Abuja!"
-date:   2023-05-02 15:37:41 -0700
-category: jekyll update
-#image: assets/images/3d-image.jpg
+layout: page
+title: Human Rights Program Report (2017)
+date: 2017-01-01 12:00:00 +0000
+# tags: [human-rights, education, Nigeria
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+# Human Rights Program in Gadaka Town, Yobe State (2017)
 
-`YEAR-MONTH-DAY-title.MARKUP`
+In 2017, the Human Rights organization, under the leadership of Hon Ismaila Ahmed Gadaka, Member of the House of Representatives representing Fika / Fune Federal Constituency, Yobe State, Nigeria, organized a significant program in Gadaka Town. This program aimed to create awareness and educate students about essential topics such as bullying, child abuse, and sexual harassment. The program was conducted at two prominent educational institutions: Government Day Junior Secondary School Gadaka and Government Girl Senior Secondary School Gadaka.
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+## Program Details
 
-Jekyll also offers powerful support for code snippets:
+- **Date:** 20 June 2017
+- **Locations:** Government Day Junior Secondary School Gadaka and Government Girl Senior Secondary School Gadaka
+- **Location Details:** Gadaka Town, Fika Local Government Area, Yobe State, Nigeria
+- **Organized By:** Human Rights, in collaboration with Hon Ismaila Ahmed Gadaka
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+## Program Highlights
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+### Raising Awareness
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+The core objective of the program was to raise awareness among students about their rights and responsibilities. The students were introduced to the role of the Human Rights commission and the significance of upholding human rights principles.
+
+### Addressing Critical Issues
+
+Interactive sessions and workshops were conducted to discuss sensitive subjects such as bullying, child abuse, and sexual harassment. Students were equipped with knowledge on identifying and responding to these issues, as well as seeking help when required.
+
+### Empowering Students
+
+Through engaging discussions and interactive activities, the program empowered students to take a stand against injustice and contribute positively to cultivating a safe and respectful environment within their schools and communities.
+
+## Impact and Testimonials
+
+The program had a profound impact on the students, fostering a sense of awareness, empathy, and empowerment. Here are some testimonials from the participants:
+
+> "This program opened my eyes to the importance of standing up against any form of abuse. We have the right to be safe."
+> — Hafsat Isa
+
+> "I learned that raising our voice against harassment is crucial. We should never tolerate any form of bullying or abuse."
+> — Juliana Bazam
+
+## Conclusion
+
+The Human Rights program held in 2017 in Gadaka Town, Yobe State, Nigeria, was a remarkable success. By enlightening students about their rights and engaging in meaningful discussions, the program contributed to building a more informed and vigilant community. The impact of this program continues to reverberate, motivating students to become advocates for positive change.
+
+For more information about Human Rights programs, please contact [Your Contact Information].
+
+---
