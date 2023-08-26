@@ -43,8 +43,13 @@ title-logo: images/title-logoHH1.JPG
 markdown: kramdown
 # I removed the minima theme using a regular theme
 # theme: minima
+
+repository: Babigdk/Babigdk.github.io # if using GitHub Pages, specify your repository
+
+
 plugins:
   - jekyll-feed
+  - jekyll-github-metadata # this plugin fetches repository data
 
 # Exclude from processing.
 # The following items will not be processed, by default.

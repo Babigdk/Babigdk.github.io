@@ -43,6 +43,9 @@ $on-laptop:        800px !default;
   font-size: $base-font-size * $ratio;
 }
 
+// main.scss
+@import "repositories";
+
 // Import partials.
 @import
   "minima/base",

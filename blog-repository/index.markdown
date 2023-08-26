@@ -3,29 +3,30 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title: "Repositories"
+title: "My GitHub Repositories"
 feed-type: repo
-permalink: /blog-repository/index
+<!-- permalink: blog-repository/index.markdown -->
 categories: repo
 ---
-<h1>My GitHub Repositories</h1>
 
-<div id="repos">
-  <ul id="repo-list"></ul>
-</div>
+<h2></h2>
 
-<script>
-fetch('https://api.github.com/users/Babigdk/repos')
-  .then(response => response.json())
-  .then(repos => {
-    const repoList = document.getElementById('repo-list');
-    repos.forEach(repo => {
-      const listItem = document.createElement('li');
-      const link = document.createElement('a');
-      link.href = repo.html_url;
-      link.textContent = repo.name;
-      listItem.appendChild(link);
-      repoList.appendChild(listItem);
-    });
-  });
-</script>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Language</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% assign repositories = site.github.public_repositories %}
+    {% for repository in repositories %}
+      <tr>
+        <td><a href="{{ repository.html_url }}">{{ repository.name }}</a></td>
+        <td>{{ repository.description | default: "N/A" }}</td>
+        <td>{{ repository.language | default: "N/A" }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
