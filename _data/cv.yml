@@ -3,15 +3,13 @@
   contents:
     - name: Full Name
       value: Abdulrazaq Isa BABI
-    - name: Date of Birth
-      value: 01st Feb 1994
     - name: Languages
       value: Hausa, English, Ngamo, Bole
 
 - title: Education
   type: time_table
   contents:
-    - title: Bsc
+    - title: B.TECH
       institution: Abubakar Tafawa Balewa University
       year: 2019
       description:
@@ -53,13 +51,25 @@
 
     - title: Software Engeneering
       institution: ALX Africa, Nairobi, Kenya
-      year: 2022 - now
+      year: 2023
       description:
+        - As a full-stack engineer, my responsibilities include designing, developing, and maintaining
+         both front-end and back-end components of software applications. 
+        - This involves writing code, implementing user interfaces, and ensuring the seamless interaction between databases and
+         the user interface.
+        - I work on debugging, testing, and optimizing software for performance and
+         scalability, collaborating with cross-functional teams, and staying up-to-date with the latest
+         technologies to deliver robust and user-friendly applications.
+        - I also participate in the entire
+         software development lifecycle, from concept to deployment and maintenance, ensuring the
+         overall success of the projects I'm involved in.
 
     - title: Host/Tutor
       institution: Data Science Network (DSN)
       year: 2022 - now
-
+      description:
+        - I am responsible for teaching fundamental data science concepts, including statistics, machine learning, data preprocessing, and data visualization.
+        -  I help students become proficient in using data analysis tools and programming languages such as Python, R, and data science libraries (e.g., pandas, scikit-learn).
 - title: Open Source Projects
   type: time_table
   contents:
@@ -70,10 +80,10 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2017
+    - year: 2019
       items:
         - Badges in Programming
-    - year: 2018
+    - year: 2023
       items:
         - Professional Certifications
 
