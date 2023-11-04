@@ -44,6 +44,7 @@ layout: default
   .slider-button {
     cursor: pointer;
     font-size: 20px;
+    display: block; /* Ensure the buttons are always visible */
   }
 
   .slider-button-left {
@@ -58,33 +59,6 @@ layout: default
     right: 0;
     top: 50%;
     transform: translateY(-50%);
-  }
-
-  /* Responsive layout adjustments */
-  @media (max-width: 768px) {
-    .post {
-      flex: 0 0 100%; /* Full width for posts on smaller screens */
-      float: none; /* Remove float for posts on smaller screens */
-    }
-
-    .post img {
-      max-width: 100%; /* Full width for images on smaller screens */
-      float: none; /* Remove float for images on smaller screens */
-    }
-
-    .post-content {
-      max-width: 100%; /* Full width for post content on smaller screens */
-      float: none; /* Remove float for post content on smaller screens */
-    }
-
-    .slider-button {
-      display: none; /* Hide navigation buttons on smaller screens */
-    }
-
-    /* Ensure the menu is on top */
-    .menu {
-      z-index: 1;
-    }
   }
 </style>
 
