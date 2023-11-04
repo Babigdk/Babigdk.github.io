@@ -1,0 +1,72 @@
+---
+layout: post
+title:  "Screen Recorder Web Application"
+date:   2023-05-05 15:37:41 -0700
+categories: project
+permalink: Projects/_posts/2023-05-4-project
+feed-type: project
+image: assets/images/3d-image3.jpg
+---
+# Screen Recorder Web Application Project Report
+
+## Introduction
+
+This project report provides an overview of the Screen Recorder Web Application developed using JavaScript. The system is designed to allow users to capture their computer screens, making it easier for them to create video tutorials, record presentations, or share their screen activity.
+
+### Project Objectives
+
+The primary objectives of this Screen Recorder Web Application project were:
+
+1. **Screen Recording**: Provide a user-friendly interface for recording computer screens and audio.
+
+2. **Easy Accessibility**: Make the application accessible from any web browser without requiring the installation of additional software.
+
+3. **Recording Options**: Offer various recording options, including full screen, specific application windows, and custom screen regions.
+
+4. **User-Friendly Interface**: Design a simple and intuitive user interface for users of all levels of technical expertise.
+
+5. **File Export**: Allow users to save and export recorded videos in common formats (e.g., MP4, WebM).
+
+## Technologies Used
+
+The system was built using the following technologies:
+
+- **JavaScript**: Used for creating the web-based user interface, capturing screen activity, and handling user interactions.
+
+- **MediaRecorder API**: Implemented to record screen activity and audio.
+
+- **HTML/CSS**: Used for creating the user interface and styling the application.
+
+## System Modules
+
+The Screen Recorder Web Application comprises the following modules:
+
+1. **Screen Recording**: Allows users to start, pause, and stop screen recording sessions.
+
+2. **Audio Recording**: Offers the option to record audio from the computer's microphone or system sound.
+
+3. **Custom Screen Region**: Provides the ability to select a specific screen region for recording.
+
+4. **File Export**: Enables users to save and export recorded videos in commonly used formats.
+
+5. **User Authentication**: Allows users to create accounts and store their recordings.
+
+## System Features
+
+Key features of the Screen Recorder Web Application include:
+
+- Simple and intuitive user interface for starting and managing recording sessions.
+- Options for capturing the entire screen, specific application windows, or custom screen regions.
+- Real-time audio recording from the computer's microphone or system sound.
+- Exporting recorded videos in popular video formats.
+- User accounts to save and access recorded videos.
+
+## Project Challenges
+
+During the development of this Screen Recorder Web Application, some challenges were encountered:
+
+1. **Cross-Browser Compatibility**: Ensuring the application works across various web browsers with different levels of support for the MediaRecorder API.
+
+2. **Performance**: Optimizing screen recording to capture video smoothly without significant lag.
+
+3. **File Management**: Implementing a system for managing and storing user

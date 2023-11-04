@@ -1,7 +1,0 @@
----
-layout: cv
-title:  "CV"
-date:   2023-05-05 15:37:41 -0700
-category: cv
-image: assets/images/3d-image3.jpg
----

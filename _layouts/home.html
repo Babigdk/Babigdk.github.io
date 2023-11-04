@@ -2,39 +2,152 @@
 layout: default
 ---
 
+<style>
+  .slider-container {
+    overflow: hidden;
+    position: relative;
+  }
+
+  .post-slider {
+    display: flex;
+    transition: transform 0.5s;
+  }
+
+  .post {
+    flex: 0 0 100%; /* Ensure each post takes the full width of the container */
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .post img {
+    max-width: 100%; /* Set the image width to 100% for the full post width */
+    height: auto;
+    float: left; /* Float the image to the left */
+  }
+
+  .post-content {
+    max-width: 50%; /* Set the content width to 50% */
+    float: left; /* Float the content to the left */
+  }
+
+  .post h3 {
+    margin-top: 10px;
+  }
+
+  .post-meta {
+    font-size: 14px;
+    color: #888888;
+  }
+
+  .slider-button {
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  .slider-button-left {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .slider-button-right {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  /* Responsive layout adjustments */
+  @media (max-width: 768px) {
+    .post {
+      flex: 0 0 100%; /* Full width for posts on smaller screens */
+      float: none; /* Remove float for posts on smaller screens */
+    }
+
+    .post img {
+      max-width: 100%; /* Full width for images on smaller screens */
+      float: none; /* Remove float for images on smaller screens */
+    }
+
+    .post-content {
+      max-width: 100%; /* Full width for post content on smaller screens */
+      float: none; /* Remove float for post content on smaller screens */
+    }
+
+    .slider-button {
+      display: none; /* Hide navigation buttons on smaller screens */
+    }
+
+    /* Ensure the menu is on top */
+    .menu {
+      z-index: 1;
+    }
+  }
+</style>
+
 <div class="home">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
-  {{ content }}
-
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
+  <div class="slider-container">
+    <div class="post-slider">
       {%- for post in site.posts -%}
-      <li>
+      <div class="post">
         {%- if post.image -%}
           <img src="{{- post.image | relative_url -}}" alt="" class="blog-roll-image">
         {%- else -%}
-          {%- assign postImage = "assets\images\image-default.jpg" -%}
+          {%- assign postImage = "assets/images/image-default.jpg" -%}
             <img src="{{- postImage | relative_url -}}" alt="" class="blog-roll-image">
-          {%- endif -%}
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
         {%- endif -%}
-      </li>
+        <div class="post-content">
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+          <h3>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h3>
+          {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+          {%- endif -%}
+        </div>
+      </div>
       {%- endfor -%}
-    </ul>
-
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
-
+    </div>
+    <div class="slider-button slider-button-left" onclick="moveSlider(-1)">←</div>
+    <div class="slider-button slider-button-right" onclick="moveSlider(1)">→</div>
+  </div>
 </div>
+
+<script>
+  let currentSlide = 0;
+  const totalSlides = document.querySelectorAll('.post-slider > .post').length;
+  const slideInterval = 5000; // Set the interval to 5000 milliseconds (5 seconds)
+
+  function moveSlider(direction) {
+    currentSlide += direction;
+
+    if (currentSlide < 0) {
+      currentSlide = totalSlides - 1;
+    } else if (currentSlide >= totalSlides) {
+      currentSlide = 0;
+    }
+
+    const translateX = -currentSlide * 100;
+    document.querySelector('.post-slider').style.transform = `translateX(${translateX}%)`;
+  }
+
+  function autoSlide() {
+    moveSlider(1); // Move to the next post
+  }
+
+  // Initialize the slider
+  moveSlider(0);
+
+  // Automatically change slides every 5 seconds
+  setInterval(autoSlide, slideInterval);
+</script>

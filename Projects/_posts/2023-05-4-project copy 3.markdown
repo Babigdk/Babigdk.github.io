@@ -1,0 +1,92 @@
+---
+layout: post
+title:  "Computer-Based Test"
+date:   2023-05-05 15:37:41 -0700
+categories: project
+permalink: Projects/_posts/2023-05-4-project
+feed-type: project
+image: assets/images/3d-image3.jpg
+---
+# Computer-Based Testing (CBT) Exam System Project Report
+
+## Introduction
+
+This project report provides an overview of the Computer-Based Testing (CBT) Exam System developed using JavaScript. The system is designed to facilitate online testing, making it easier for educators and institutions to conduct and manage computer-based examinations efficiently.
+
+### Project Objectives
+
+The primary objectives of this CBT Exam System project were:
+
+1. **Online Examination**: Provide a platform for creating and conducting online examinations for students or candidates.
+
+2. **Security and Integrity**: Ensure the security and integrity of the examination process by preventing cheating and unauthorized access.
+
+3. **Scalability**: Design a system that can handle a large number of candidates simultaneously.
+
+4. **Real-time Evaluation**: Automatically evaluate and score exam papers in real-time.
+
+5. **Reporting and Analytics**: Generate detailed reports and analytics on candidate performance.
+
+## Technologies Used
+
+The system was built using the following technologies:
+
+- **JavaScript**: Used for the front-end to create the user interface and exam interaction.
+
+- **Node.js**: Implemented the server-side logic for handling exam data and authentication.
+
+- **MongoDB**: Utilized as the backend database for storing exam questions, candidate information, and exam results.
+
+## System Modules
+
+The CBT Exam System comprises several modules:
+
+1. **Admin Dashboard**: Allows administrators to create, manage, and schedule exams.
+
+2. **Candidate Registration**: Provides candidates with the ability to register for exams.
+
+3. **Exam Conduct**: Facilitates the conduct of exams with features like time limits and question randomization.
+
+4. **Automated Evaluation**: Automatically evaluates and scores candidate responses in real-time.
+
+5. **Result Generation**: Generates results and detailed reports for candidates and administrators.
+
+6. **User Authentication and Authorization**: Ensures secure access to the system and assigns role-based permissions to users.
+
+## System Features
+
+Key features of the CBT Exam System include:
+
+- User-friendly web interface for easy exam navigation and interaction.
+- Secure login and registration for candidates and administrators.
+- Real-time monitoring of candidates during the exam to prevent cheating.
+- Automatic grading and score calculation for each exam.
+- Detailed performance reports and analytics for candidates and administrators.
+- Secure storage of exam questions and results in the MongoDB database.
+
+## Project Challenges
+
+During the development of this CBT Exam System, some challenges were encountered:
+
+1. **Security**: Ensuring the security of the examination process, including preventing unauthorized access and cheating.
+
+2. **Scalability**: Designing a system that can handle a large number of candidates simultaneously without performance degradation.
+
+3. **Real-time Evaluation**: Implementing an efficient real-time evaluation system that can handle various types of questions (e.g., multiple-choice, essay) with accuracy.
+
+4. **User Experience**: Ensuring a seamless and user-friendly experience for both candidates and administrators.
+
+## Conclusion
+
+The Computer-Based Testing (CBT) Exam System developed using JavaScript successfully addresses the challenges of conducting online exams. It provides a secure, efficient, and scalable platform for educators and institutions to assess candidates.
+
+This project has been a valuable experience, allowing for the application of web development and database management skills to create a practical solution for online examinations. It not only benefits educators and institutions but also provides insights into project management and system design.
+
+The system is now in use, and ongoing maintenance and updates are planned to ensure it continues to meet the evolving needs of the educational sector.
+
+
+For any inquiries or further information, please contact:
+
+ABDULRAZAQ BABI
+Babigdk@gmail.com
+07080877504

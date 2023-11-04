@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title: "My GitHub Repositories"
+title: "GitHub Repositories"
 feed-type: repo
 <!-- permalink: blog-repository/index.markdown -->
 categories: repo
