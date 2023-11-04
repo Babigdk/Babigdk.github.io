@@ -4,7 +4,7 @@ title:  AI Invasion Program at Sabon Gari Primary School, Potiskum
 date:   2022-04-27
 categories: Tech
 feed-type: Tech
-permalink: blog-Tech/_posts/2023-04-28-tech2
+permalink: blog-Tech/_posts/2022-04-28-tech2
 image: assets/images/3d-image3.jpg
 ---
 
