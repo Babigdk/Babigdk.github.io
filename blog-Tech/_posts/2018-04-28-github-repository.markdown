@@ -4,7 +4,7 @@ title: "Monitoring and Evaluation Meeting Report"
 date: 2018-06-09 15:37:41 -0700
 categories: Tech
 feed-type: Tech
-permalink: blog-repository/_posts/2023-04-28-github-repository
+permalink: blog-repository/_posts/2018-04-28-github-repository
 image: assets/images/3d-image1.jpg
 ---
 
