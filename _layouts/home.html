@@ -11,6 +11,7 @@ layout: default
   .post-slider {
     display: flex;
     transition: transform 0.5s;
+    max-width: 100%; /* Ensure the slider takes the full width of the container */
   }
 
   .post {
@@ -19,18 +20,17 @@ layout: default
     border: 1px solid #e0e0e0;
     padding: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
   }
 
   .post img {
-    max-width: 100%; /* Set the image width to 100% for the full post width */
-    height: auto;
-    float: left; /* Float the image to the left */
-    max-height: 300px; /* Increase the maximum height of the images to 300px */
+    width: 100%; /* Set the image width to 100% for the full post width */
+    max-height: 100%; /* Set the maximum height of the images to 100% */
   }
 
   .post-content {
-    max-width: 50%; /* Set the content width to 50% */
-    float: left; /* Float the content to the left */
+    flex: 1; /* Allow the content to take the remaining space */
   }
 
   .post h3 {
@@ -61,6 +61,13 @@ layout: default
     right: 0;
     top: 50%;
     transform: translateY(-50%);
+  }
+
+  /* Responsive layout adjustments */
+  @media (max-width: 768px) {
+    .post img {
+      max-height: auto; /* Allow images to scale naturally on smaller screens */
+    }
   }
 </style>
 
