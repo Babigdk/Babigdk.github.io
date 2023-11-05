@@ -16,6 +16,7 @@ layout: default
     display: flex;
     transition: transform 0.5s;
     max-width: 100%; /* Ensure the slider takes the full width of the container */
+    touch-action: pan-y; /* Allow vertical touch gestures */
   }
 
   .post {
@@ -82,7 +83,7 @@ layout: default
   {%- endif -%}
 
   <div class="slider-container">
-    <div class="post-slider">
+    <div class="post-slider" id="postSlider">
       {%- for post in site.posts -%}
       <div class="post">
         {%- if post.image -%}
@@ -116,6 +117,31 @@ layout: default
   const totalSlides = document.querySelectorAll('.post-slider > .post').length;
   const slideInterval = 5000; // Set the interval to 5000 milliseconds (5 seconds)
 
+  // Reference to the post slider
+  const postSlider = document.getElementById('postSlider');
+
+  // Variables to store touch start position
+  let touchStartX = 0;
+  let touchEndX = 0;
+
+  postSlider.addEventListener('touchstart', handleTouchStart);
+  postSlider.addEventListener('touchend', handleTouchEnd);
+
+  function handleTouchStart(event) {
+    touchStartX = event.touches[0].clientX;
+  }
+
+  function handleTouchEnd(event) {
+    touchEndX = event.changedTouches[0].clientX;
+    const swipeDistance = touchStartX - touchEndX;
+
+    if (swipeDistance > 50) {
+      moveSlider(1); // Swipe left
+    } else if (swipeDistance < -50) {
+      moveSlider(-1); // Swipe right
+    }
+  }
+
   function moveSlider(direction) {
     currentSlide += direction;
 
@@ -126,7 +152,7 @@ layout: default
     }
 
     const translateX = -currentSlide * 100;
-    document.querySelector('.post-slider').style.transform = `translateX(${translateX}%)`;
+    postSlider.style.transform = `translateX(${translateX}%)`;
   }
 
   function autoSlide() {
