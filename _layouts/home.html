@@ -6,6 +6,10 @@ layout: default
   .slider-container {
     overflow: hidden;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
   }
 
   .post-slider {
@@ -22,6 +26,7 @@ layout: default
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
+    max-width: 500px; /* Adjust the maximum width for larger screens */
   }
 
   .post img {
@@ -65,8 +70,8 @@ layout: default
 
   /* Responsive layout adjustments */
   @media (max-width: 768px) {
-    .post img {
-      max-height: auto; /* Allow images to scale naturally on smaller screens */
+    .post {
+      max-width: 90%; /* Adjust the maximum width for smaller screens */
     }
   }
 </style>
