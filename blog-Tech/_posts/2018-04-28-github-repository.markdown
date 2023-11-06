@@ -15,7 +15,7 @@ image: assets/images/3d-image1.jpg
 - **Date:** 2018-06-09
 - **Location:** Professor Iya Abubakar Community Resource Centre, Bauchi
 
-## Introduction
+## Introduction.
 
 The Monitoring and Evaluation (M&E) meeting session held at the Professor Iya Abubakar Community Resource Centre in Bauchi was a crucial event that marked a significant milestone in my internship journey. This event was designed to expose interns to real-world applications of M&E principles and provide insights into various technical issues related to the field.
 

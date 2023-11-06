@@ -12,8 +12,10 @@
         {{ content }}
       </div>
     </main>
-
-    {%- include footer.html -%}
+    
+    {% if page.no_footer != true %}
+      {%- include footer.html -%}
+    {% endif %}
 
   </body>
 

@@ -4,7 +4,7 @@ layout: default
 
 <style>
   .slider-container {
-    margin: 0 auto; /* Center the slider horizontally */
+    margin: 20px auto 0; /* Added margin-top to clear the gap */
     overflow: hidden;
     position: relative;
     max-width: 100%;
@@ -129,9 +129,9 @@ layout: default
       </div>
       {%- endfor -%}
     </div>
-    <div class="slider-button slider-button-left" onclick="moveSlider(-1)">←</div>
-    <div class="slider-button slider-button-right" onclick="moveSlider(1)">→</div>
   </div>
+  <div class="slider-button slider-button-left" onclick="moveSlider(-1)">←</div>
+  <div class="slider-button slider-button-right" onclick="moveSlider(1)">→</div>
 </div>
 
 <script>

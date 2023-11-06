@@ -1,32 +1,34 @@
 ---
 layout: default
 ---
-<article class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
-  </header>
+<div class="container">
+  <article class="post">
+    <header class="post-header">
+      <h1 class="post-title">{{ page.title | escape }}</h1>
+    </header>
 
-  <div class="post-content">
-    {{ content }}
-  </div>
+    <div class="post-content">
+      {{ content }}
+    </div>
 
-  {%- assign feedType = page.feed-type -%}
-  {%- if feedType == "Tech" or feedType == "repo" or feedType == "project" -%}
-    <h2>Featured Post</h2>
-    {%- assign displayOffset = 0 -%}
-    {%- assign displayLimit = 1 -%}
-    {%- assign sectionName = "featured-post" -%}
-    {% include feed.html %}
-  {%- endif -%}
+    {%- assign feedType = page.feed-type -%}
+    {%- if feedType == "Tech" or feedType == "repo" or feedType == "project" -%}
+      <h2>Featured Post</h2>
+      {%- assign displayOffset = 0 -%}
+      {%- assign displayLimit = 1 -%}
+      {%- assign sectionName = "featured-post" -%}
+      {% include feed.html %}
+    {%- endif -%}
 
-  {%- assign feedType = page.feed-type -%}
-  {%- if feedType == "Tech" or feedType == "repo" or feedType == "project" -%}
-  <h2>Posts</h2>
-  {%- assign displayOffset = 1 -%}
-  {%- assign displayLimit = null -%}
-  {%- assign sectionName = "feed" -%}
-    {% include feed.html %}
-  {%- endif -%}
+    {%- assign feedType = page.feed-type -%}
+    {%- if feedType == "Tech" or feedType == "repo" or feedType == "project" -%}
+      <h2>Posts</h2>
+      {%- assign displayOffset = 1 -%}
+      {%- assign displayLimit = null -%}
+      {%- assign sectionName = "feed" -%}
+      {% include feed.html %}
+    {%- endif -%}
+  </article>
 
-</article>
+</div>

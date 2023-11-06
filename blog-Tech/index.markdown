@@ -7,4 +7,5 @@ title: "Tech"
 feed-type: Tech
 permalink: blog-Tech/index
 categories: Tech
+no_footer: true
 ---
