@@ -9,7 +9,7 @@ image: assets/images/3d-image3.jpg
 ---
 # Screen Recorder Web Application Project Report
 
-## Introduction
+## Introduction.
 
 This project report provides an overview of the Screen Recorder Web Application developed using JavaScript. The system is designed to allow users to capture their computer screens, making it easier for them to create video tutorials, record presentations, or share their screen activity.
 

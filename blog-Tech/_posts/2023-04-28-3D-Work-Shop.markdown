@@ -9,7 +9,7 @@ image: assets/images/3d-image2.jpg
 ---
 
 
-# Participation in 3D Printer and Design Program
+# Participation in 3D Printer and Design Program.
 
 From March 6th to 10th, 2023. I had the privilege of representing Yobe State in an exceptional program organized by Woodlab and Devlap in collaboration with the Federal Ministry of Humanitarian and Disaster Management, powered by JICA. The program focused on 3D printing, design, and robotics and took place at Woodlab in Abuja.
 

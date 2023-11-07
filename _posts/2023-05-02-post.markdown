@@ -6,7 +6,7 @@ category: jekyll update
 image: assets/images/3d-image.jpg
 ---
 
-# Google African Developer Scholarship Program at ATBU Bauchi, 2018
+# Google African Developer Scholarship Program at ATBU Bauchi, 2018.
 
 In 2018, I had the privilege of participating in the Google African Developer Scholarship program organized by Google at Abubakar Tafawa Balewa University in Bauchi. This program provided a remarkable opportunity for participants to dive into technical learning and understand the significance of establishing a strong online presence.
 

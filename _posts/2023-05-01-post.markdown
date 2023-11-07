@@ -8,7 +8,7 @@ image: assets/images/human-right.jpg
 
 # Human Rights Program in Gadaka Town, Yobe State (2017)
 
-In 2017, the Human Rights organization, under the leadership of Hon Ismaila Ahmed Gadaka, Member of the House of Representatives representing Fika / Fune Federal Constituency, Yobe State, Nigeria, organized a significant program in Gadaka Town. This program aimed to create awareness and educate students about essential topics such as bullying, child abuse, and sexual harassment. The program was conducted at two prominent educational institutions: Government Day Junior Secondary School Gadaka and Government Girl Senior Secondary School Gadaka.
+In 2017, the Human Rights organization. under the leadership of Hon Ismaila Ahmed Gadaka, Member of the House of Representatives representing Fika / Fune Federal Constituency, Yobe State, Nigeria, organized a significant program in Gadaka Town. This program aimed to create awareness and educate students about essential topics such as bullying, child abuse, and sexual harassment. The program was conducted at two prominent educational institutions: Government Day Junior Secondary School Gadaka and Government Girl Senior Secondary School Gadaka.
 
 ## Program Details
 

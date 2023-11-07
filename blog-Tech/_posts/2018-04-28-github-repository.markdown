@@ -8,7 +8,7 @@ permalink: blog-repository/_posts/2018-04-28-github-repository
 image: assets/images/3d-image1.jpg
 ---
 
-# Monitoring and Evaluation Meeting Report
+# Monitoring and Evaluation Meeting Report.
 
 ## Event Details
 

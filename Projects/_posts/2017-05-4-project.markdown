@@ -9,7 +9,7 @@ image: assets/images/3d-image3.jpg
 ---
 # School Management System Project Report
 
-## Introduction
+## Introduction.
 
 This project report provides an overview of the School Management System developed using HTML, PHP, and MySQL. The system is designed to streamline various administrative and academic processes within a school, making it easier for administrators, teachers, and students to manage school-related activities efficiently.
 

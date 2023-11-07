@@ -8,7 +8,7 @@ permalink: blog-Tech/_posts/2022-04-28-tech2
 image: assets/images/3d-image3.jpg
 ---
 
-# AI Invasion Program at Yagari Primary School, Potiskum
+# AI Invasion Program at Yagari Primary School, Potiskum.
 
 In 2022, I had the privilege of being a tutor in the AI Invasion program organized by Data Science Nigeria. The program was designed to introduce the community to the realms of Artificial Intelligence (AI), Data Science, and Machine Learning. The program took place at Potiskum, located in Sabon Gari Primary School Potiskum, Yobe State.
 
