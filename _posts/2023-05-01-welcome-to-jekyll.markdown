@@ -5,7 +5,6 @@ date: 2017-01-01 12:00:00 +0000
 # tags: [human-rights, education, Nigeria
 image: assets/images/human-right.jpg
 ---
-assets/images/human-right.jpg
 
 # Human Rights Program in Gadaka Town, Yobe State (2017)
 
