@@ -1,9 +1,9 @@
-<footer class="site-footer h-card">
+<footer class="site-footer h-card" style="background-color: black; color: white;">
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+    <h2 class="footer-heading" style="color: white;">{{ site.title | escape }}</h2>
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
@@ -14,13 +14,13 @@
             {%- else -%}
               {{ site.title | escape }}
             {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-            {%- if site.copyright -%}
-            <li>&copy; {{ site.copyright }} {{ 'apr' | date: "%y" }}</li>
-            {%- endif -%}
+          </li>
+          {%- if site.email -%}
+          <li><a class="u-email" href="mailto:{{ site.email }}" style="color: white;">{{ site.email }}</a></li>
+          {%- endif -%}
+          {%- if site.copyright -%}
+          <li style="color: white;">&copy; {{ site.copyright }} {{ 'apr' | date: "%y" }}</li>
+          {%- endif -%}
         </ul>
       </div>
 
@@ -29,7 +29,7 @@
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
+        <p style="color: white;">{{- site.description | escape }}</p>
       </div>
     </div>
 

@@ -7,5 +7,5 @@ title: "Projects"
 categories: project
 feed-type: project
 permalink: Projects/index
-no_footer: true
+# no_footer: true
 ---
