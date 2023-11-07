@@ -7,9 +7,9 @@ permalink: Projects/_posts/2023-05-4-project
 feed-type: project
 image: assets/images/3d-image3.jpg
 ---
-# Online Indigenous Record Keeping System Project Report
+# Online Indigenous Record Keeping System Project Report.
 
-## Introduction.
+## Introduction
 
 This project report provides an overview of the Online Indigenous Record Keeping System developed using JavaScript. The system is designed to facilitate the preservation and management of indigenous records, making it easier for indigenous communities and organizations to document and protect their cultural heritage.
 

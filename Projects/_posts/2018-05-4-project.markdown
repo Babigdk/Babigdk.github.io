@@ -7,9 +7,9 @@ permalink: Projects/_posts/2018-05-4-project
 feed-type: project
 image: assets/images/3d-image3.jpg
 ---
-# Computer-Based Testing (CBT) Exam System Project Report
+# Computer-Based Testing (CBT) Exam System Project Report.
 
-## Introduction.
+## Introduction
 
 This project report provides an overview of the Computer-Based Testing (CBT) Exam System developed using JavaScript. The system is designed to facilitate online testing, making it easier for educators and institutions to conduct and manage computer-based examinations efficiently.
 
