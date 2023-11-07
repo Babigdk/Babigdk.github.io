@@ -11,7 +11,7 @@ layout: default
     <div class="post-content">
       {{ content }}
     </div>
-
+    
     {%- assign feedType = page.feed-type -%}
     {%- if feedType == "Tech" or feedType == "repo" or feedType == "project" -%}
       <h2>Featured Post</h2>
@@ -30,5 +30,4 @@ layout: default
       {% include feed.html %}
     {%- endif -%}
   </article>
-
 </div>

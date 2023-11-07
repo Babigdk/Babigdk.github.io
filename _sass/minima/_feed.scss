@@ -1,13 +1,11 @@
-//stylling for featured post
+// Styling for featured post
 .featured-post .feed-card {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 250px;
   column-gap: 10px;
-  margin-top: 110px;
-  border-top: lightgray;
-  border-width: 1px;
-  border-top-style: solid;
+  margin: 10px 0; /* Adjust the margin here */
+  border-top: 1px solid lightgray;
 
   .card-content {
     display: grid;
@@ -16,7 +14,7 @@
     grid-template-areas:
       "title"
       "excerpt"
-      "date"
+      "date";
   }
   .card-title {
     grid-area: title;
@@ -30,7 +28,7 @@
     grid-area: date;
     align-content: end;
   }
-  // stylling
+  // Styling
   .featured-image {
     width: 100%;
     height: 100%;
@@ -55,16 +53,14 @@
   }
 }
 
-// stylling for feed
+// Styling for feed
 .feed .feed-card {
   display: grid;
   grid-template-columns: 110px 1fr;
   grid-template-rows: 110px;
   column-gap: 10px;
-  margin-top: 110px;
-  border-top: lightgray;
-  border-width: 1px;
-  border-top-style: solid;
+  margin: 10px 0; /* Adjust the margin here */
+  border-top: 1px solid lightgray;
 
   .card-content {
     display: grid;
@@ -72,7 +68,7 @@
     grid-template-areas:
       "title"
       "excerpt"
-      "date"
+      "date";
   }
   .card-title {
     grid-area: title;
