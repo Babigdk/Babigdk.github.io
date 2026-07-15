@@ -20,3 +20,145 @@
 #repo-table td {
   vertical-align: top;
 }
+
+/* Post tags */
+.post-tags {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.post-tags-label {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.post-tags-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.post-tag {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  background-color: #2a7ae2;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.post-tag:hover {
+  background-color: #1a6ac2;
+  text-decoration: none;
+}
+
+.tag-page .tag-name {
+  color: #2a7ae2;
+}
+
+.tag-page .post-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+/* Tags index page (pure Liquid, no plugin) */
+.tag-index .tag-section {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.tag-title {
+  margin-bottom: 0.75rem;
+}
+
+.tag-title .tag-count {
+  font-size: 0.85rem;
+  color: #888;
+  font-weight: 400;
+}
+
+.tag-anchor {
+  color: #2a7ae2;
+  text-decoration: none;
+}
+
+.tag-anchor:hover {
+  text-decoration: underline;
+}
+
+.tag-index .post-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.tag-index .post-list li {
+  margin-bottom: 0.5rem;
+}
+
+/* Search */
+.search-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#search-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+#search-input:focus {
+  border-color: #2a7ae2;
+}
+
+#search-results {
+  list-style: none;
+  margin: 1.5rem 0 0;
+  padding: 0;
+}
+
+#search-results li {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+#search-results a {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.search-meta {
+  display: block;
+  font-size: 0.85rem;
+  color: #888;
+  margin: 0.25rem 0;
+}
+
+#search-results p {
+  margin: 0.5rem 0 0;
+  color: #555;
+}
+
+#search-no-results {
+  margin-top: 1.5rem;
+  color: #888;
+}

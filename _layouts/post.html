@@ -25,6 +25,17 @@ layout: default
     {{ content }}
   </div>
 
+  {%- if page.tags -%}
+    <footer class="post-tags">
+      <span class="post-tags-label">Tags:</span>
+      <ul class="post-tags-list">
+        {%- for tag in page.tags -%}
+          <li><a class="post-tag" href="{{ '/tags/#' | append: tag | slugify | relative_url }}">{{ tag | escape }}</a></li>
+        {%- endfor -%}
+      </ul>
+    </footer>
+  {%- endif -%}
+
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}

@@ -1,0 +1,28 @@
+---
+layout: default
+title: Tags
+permalink: /tags/
+---
+
+<div class="tag-index">
+  <h1 class="page-heading">Browse by tag</h1>
+
+  {%- assign sorted_tags = site.tags | sort -%}
+  {%- for tag in sorted_tags -%}
+    <section class="tag-section" id="{{ tag[0] | slugify }}">
+      <h2 class="tag-title">
+        <a class="tag-anchor" href="{{ '/tags/#' | append: tag[0] | slugify | relative_url }}">{{ tag[0] | escape }}</a>
+        <span class="tag-count">({{ tag[1].size }})</span>
+      </h2>
+      <ul class="post-list">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {%- for post in tag[1] -%}
+          <li>
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          </li>
+        {%- endfor -%}
+      </ul>
+    </section>
+  {%- endfor -%}
+</div>

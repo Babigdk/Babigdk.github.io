@@ -3,6 +3,7 @@ layout: post
 title: Google African Developer Scholarship Program - ATBU Bauchi 2018
 date:   2018-05-01 15:37:41 -0700
 category: jekyll update
+tags: [web-development, android, scholarship, tech]
 image: assets/images/3d-image.jpg
 ---
 

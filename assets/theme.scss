@@ -1,0 +1,54 @@
+// Theme variables — light is default, dark is opt-in via [data-theme="dark"]
+:root {
+  --bg-color: #fdfdfd;
+  --text-color: #111111;
+  --header-bg: #000000;
+  --header-text: #ffffff;
+  --footer-bg: #000000;
+  --footer-text: #ffffff;
+  --footer-heading: #ffffff;
+  --link-color: #2a7ae2;
+  --border-color: #e0e0e0;
+  --muted-color: #888888;
+  --card-bg: #ffffff;
+}
+
+[data-theme="dark"] {
+  --bg-color: #1a1a1a;
+  --text-color: #e8e8e8;
+  --header-bg: #000000;
+  --header-text: #ffffff;
+  --footer-bg: #000000;
+  --footer-text: #dddddd;
+  --footer-heading: #ffffff;
+  --link-color: #5aa0ff;
+  --border-color: #333333;
+  --muted-color: #aaaaaa;
+  --card-bg: #242424;
+}
+
+// Apply theme variables to base elements
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+a {
+  color: var(--link-color);
+}
+
+// Theme toggle button
+.theme-toggle {
+  background: transparent;
+  border: 1px solid var(--header-text);
+  color: var(--header-text);
+  border-radius: 4px;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.theme-toggle:hover {
+  opacity: 0.8;
+}

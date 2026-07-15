@@ -1,10 +1,10 @@
-<header class="site-header" role="banner" style="background-color: black; color: white;">
+<header class="site-header" role="banner" style="background-color: var(--header-bg); color: var(--header-text);">
 
   <style>
     @media (max-width: 768px) {
       .site-nav {
-        background-color: black;
-        color: black;
+        background-color: var(--header-bg);
+        color: var(--header-text);
       }
     }
   </style>
@@ -42,6 +42,8 @@
             <a class="page-link" href="{{ my_page.url | relative_url }}" style="color: white;">{{ my_page.title | escape }}</a>
             {%- endif -%}
           {%- endfor -%}
+          <a class="page-link" href="{{ '/search' | relative_url }}" style="color: white;">Search</a>
+          <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode">🌙</button>
         </div>
       </nav>
     {%- endif -%}
