@@ -30,7 +30,7 @@ layout: default
       <span class="post-tags-label">Tags:</span>
       <ul class="post-tags-list">
         {%- for tag in page.tags -%}
-          <li><a class="post-tag" href="{{ '/tags/#' | append: tag | slugify | relative_url }}">{{ tag | escape }}</a></li>
+          <li><a class="post-tag" href="{{ '/tags/' | append: tag | relative_url }}">{{ tag | escape }}</a></li>
         {%- endfor -%}
       </ul>
     </footer>

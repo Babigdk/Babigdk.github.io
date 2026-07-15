@@ -11,7 +11,7 @@ permalink: /tags/
   {%- for tag in sorted_tags -%}
     <section class="tag-section" id="{{ tag[0] | slugify }}">
       <h2 class="tag-title">
-        <a class="tag-anchor" href="{{ '/tags/#' | append: tag[0] | slugify | relative_url }}">{{ tag[0] | escape }}</a>
+        <a class="tag-anchor" href="{{ '/tags/' | append: tag[0] | relative_url }}">{{ tag[0] | escape }}</a>
         <span class="tag-count">({{ tag[1].size }})</span>
       </h2>
       <ul class="post-list">

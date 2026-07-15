@@ -49,6 +49,15 @@ repository: Babigdk/Babigdk.github.io # if using GitHub Pages, specify your repo
 plugins:
   - jekyll-feed
   - jekyll-github-metadata
+  - jekyll-archives
+
+jekyll-archives:
+  enabled:
+    - tags
+  layouts:
+    tag: tag
+  permalinks:
+    tag: '/tags/:name/'
 
 gems:
   - jekyll-feed
